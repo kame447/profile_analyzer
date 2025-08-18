@@ -1,0 +1,24 @@
+# Python 3.10-3.11推奨
+
+# Core Analysis Libraries (Version-pinned to avoid conflicts)
+numpy==1.26.4
+opencv-python==4.11.0.86
+mediapipe==0.10.21
+protobuf>=3.20.3,<5
+
+# Speech-to-Text
+openai-whisper==20231117
+torch>=2.1,<2.4
+tqdm>=4.65,<5
+
+# LLM Orchestration
+langchain==0.3.27
+langchain-openai==0.3.30
+pydantic>=2.3,<3
+typing_extensions>=4.8.0
+
+# Utilities & UI
+PyYAML>=6.0,<7
+python-dotenv>=1.0,<2
+tenacity>=8.2.3,<9
+rich>=13.7,<14

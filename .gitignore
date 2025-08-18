@@ -1,0 +1,9 @@
+# .gitignore
+.venv311/
+__pycache__/
+*.log
+*.mp4
+*.wav
+*.mov
+results/
+.env
